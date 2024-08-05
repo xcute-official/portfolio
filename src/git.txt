@@ -1,0 +1,35 @@
+git --version ["to know git version"]
+git config --global user.name "username"
+git config --global user.email "teslkt"
+--global ["for every repo"]
+
+git init
+git status --short["flag for short info"]
+git add .
+git commit -a -m "message" ["-a will automatically staged all tracked files"]
+git commit -m "message" 
+git log
+
+
+
+
+git command -help -  See all the available options for the specific command
+git help --all -  See all possible commands
+
+git branch new-branch
+git branch ["to know current branch"]
+git checkout new-branch ["to switch to new-branch, that we previously created"]
+git checkout -b new-branch-and-swtiched-to-it["-b will create new branch and switched to it"]
+
+
+
+
+branch merging
+first switched to main branch
+    git checkout main 
+second
+    git merge new-branch
+third deleting any branch
+git branch -d new-branch
+git checkout main
+git merge new-branch
